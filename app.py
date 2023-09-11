@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return "Hello, Flask!"
+    return "My Flask home"
 
 @app.route("/health")
 def home():
@@ -12,3 +12,4 @@ def home():
 
 if __name__ == '__main__':
     app.run()
+    
